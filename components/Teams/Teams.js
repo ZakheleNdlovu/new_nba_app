@@ -49,7 +49,7 @@ const Teams = () => {
             <View style={{ height: '5%' }}>
                 <Header data={league} />
             </View>
-            <View style={{ height: '91%' }}>
+            <View style={{ height: '92%' }}>
                 <AllTeams data={league} teams={teams} navigation={navigation} />
             </View>
             <Footer />

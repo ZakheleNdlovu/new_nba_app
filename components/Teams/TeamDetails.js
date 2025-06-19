@@ -51,19 +51,16 @@ const TeamDetails = () => {
 
     return (
         <View style={{ height: '100%' }}>
-            <View style={{ height: '53%' }}>
+            <View >
                 <Header item={item} />
             </View>
 
             <ScrollView >
                 <Statistics item={details} />
-                <TouchableOpacity onPress={() => navigation.goBack()} style={{ width: 60, borderColor: 'black', borderWidth: 1, alignItems: 'center', justifyContent: 'center', alignSelf: 'center', marginTop: 5 }}>
+                <TouchableOpacity onPress={() => navigation.goBack()} style={{ width: '98%', borderColor: 'black', borderWidth: 1, alignItems: 'center', justifyContent: 'center', alignSelf: 'center', marginTop: 5 }}>
                     <Text style={{ fontSize: 18, padding: 5 }}>Back</Text>
                 </TouchableOpacity>
             </ScrollView>
-
-
-            <Footer />
         </View>
     )
 }

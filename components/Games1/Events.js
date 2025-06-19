@@ -44,10 +44,10 @@ const Events = () => {
             <View style={{ height: '7.7%' }}>
                 <Header data={league} />
             </View>
-            <View style={{ height: '89.3%', overflow: 'hidden', marginBottom: 2 }}>
+            <View style={{ overflow: 'hidden', marginBottom: 2 }}>
                 <Games data={events} navigation={navigation} />
             </View>
-            <Footer />
+
         </View>
     )
 }

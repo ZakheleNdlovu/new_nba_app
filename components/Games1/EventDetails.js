@@ -15,13 +15,13 @@ const EventDetails = () => {
 
     return (
         <View style={{ height: '100%' }}>
-            <View style={{ height: '35%' }}>
+            <View >
                 <Header2 item={item} />
             </View>
-            <View style={{ height: '61%' }}>
+            <View >
                 <GameStatistics item={item} />
             </View>
-            <Footer />
+
         </View>
     )
 }
